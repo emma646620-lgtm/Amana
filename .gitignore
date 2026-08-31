@@ -3,11 +3,6 @@ node_modules/
 # Any package `dist/` (includes backend TypeScript output)
 dist/
 coverage/
-.env
-.env.staging
-.env.production
-.env.local
-.vscode/
 *.log
 backend/lint-output.txt
 
@@ -38,3 +33,7 @@ gitleaks-report.sarif
 
 # Local Kubernetes secrets are sourced from Vault and must never be committed
 infra/k8s/secrets.yaml
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
